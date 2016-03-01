@@ -1,4 +1,4 @@
-(function (window) {
+(function (window, $) {
     /*--- COMMON ---*/
     /**
      * @public
@@ -120,4 +120,4 @@
     if (!exported) {
         window.sassToJs = sassToJs;
     }
-})(window);
+})(window, jQuery = jQuery||{});
